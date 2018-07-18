@@ -6,12 +6,13 @@ import javax.xml.ws.Endpoint;
 @WebService
 public class Service {
 
+       // æ–¹æ³•å…¥å£
 	public static void main(String[] args) {
 		Endpoint.publish("http://localhost:9001/Service/hello", new Service());
-		System.out.println("·şÎñÆ÷·¢²¼³É¹¦");
+		System.out.println("æœåŠ¡å™¨å‘å¸ƒæˆåŠŸ");
 	}
 	
-	// ÕâÊÇÒ»¸ö·½·¨
+	// è¿™æ˜¯ä¸€ä¸ªæ–¹æ³•
 	public String getValue(String name){
 		return "I'm name is " + name;
 	}
