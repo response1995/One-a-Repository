@@ -6,7 +6,7 @@ import javax.xml.ws.Endpoint;
 @WebService
 public class Service {
 
-       // 方法入口
+       // 主方法入口
 	public static void main(String[] args) {
 		Endpoint.publish("http://localhost:9001/Service/hello", new Service());
 		System.out.println("服务器发布成功");
