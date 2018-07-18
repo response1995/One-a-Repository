@@ -11,6 +11,7 @@ public class Service {
 		System.out.println("服务器发布成功");
 	}
 	
+	// 这是一个方法
 	public String getValue(String name){
 		return "I'm name is " + name;
 	}
